@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:background="#28B8D0"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="1602dp"
+        android:layout_height="0dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.53"
+        android:src="@drawable/spotslogo2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/tvUsername"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp" />
+
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoComplete" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/tvPassword"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:text="@string/bLogin"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvRegisterLink"
+        android:layout_width="wrap_content"
+        android:text="@string/tvRegister"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bDriverRegister"
+        android:id="@+id/bDriverRegister" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bHomeownerRegister"
+        android:id="@+id/bHomeownerRegister" />
+
+</LinearLayout>
+</LinearLayout>

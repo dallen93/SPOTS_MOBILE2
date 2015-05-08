@@ -1,0 +1,158 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:layout_gravity="center_horizontal"
+    android:fillViewport="true">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    android:background="#28B8D0"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/spotslogo2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/tvDriverTitle"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/tvUsername"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:hint="@string/prompt_password"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="175dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/DriverFirstName"
+            android:inputType="text" />
+
+        <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="181dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/DriverLastName"
+        android:inputType="text"
+        android:layout_gravity="right" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etStreetAddress"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/streetAddress"
+        android:inputType="text" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/city"
+        android:inputType="text"
+        android:layout_weight="395.63" />
+    <Spinner
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_gravity="top" />
+</LinearLayout>
+    <EditText
+        android:id="@+id/etZipCode"
+        android:layout_width="177dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/zipCode"
+        android:inputType="number"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/VehicleInfo"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/etCarMake"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/carMake"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/etCarModel"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/carModel"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/etCarLicense"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/carLicense"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/phoneNumber"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:text="@string/bRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</ScrollView>
