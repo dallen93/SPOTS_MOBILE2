@@ -40,6 +40,7 @@
     <string name="spotsAvailable">How many spots?</string>
     <string name="spotsCost">How much per spot?</string>
     <string name="VehicleInfo">Vehicle Information</string>
+    <string name="action_search">Search</string>
     <string-array name="states">
         <item>AL</item>
         <item>AK</item>
