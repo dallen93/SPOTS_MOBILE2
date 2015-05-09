@@ -1,6 +1,7 @@
 package com.example.dmarquis.spots_mobile2;
 
 import android.app.LocalActivityManager;
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -43,10 +44,12 @@ public class RegisterDriver extends FragmentActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.bRegister:
+                startActivity(new Intent(this, HomeScreen.class));
                 Toast.makeText(getApplicationContext(), "Success! You are Registered!", Toast.LENGTH_SHORT).show();
                 break;
         }
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -61,7 +64,6 @@ public class RegisterDriver extends FragmentActivity implements View.OnClickList
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;

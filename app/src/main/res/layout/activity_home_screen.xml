@@ -10,40 +10,11 @@
     android:background="#28B8D0"
     android:orientation="vertical">
 
-    <SearchView
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:queryHint="Search for an event..."
-        android:id="@+id/searchView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView4"
-        android:src="@drawable/spotslogo2"
-        android:cropToPadding="false"
-        android:baselineAlignBottom="false"
-        android:layout_alignWithParentIfMissing="false"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="false"
-        android:layout_toEndOf="@+id/textView3"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_alignStart="@+id/textView3"
-        android:layout_marginRight="75dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/tvHome_searchbar"
-        android:id="@+id/textView3"
-        android:textColor="#FFFFFF"
-        android:textStyle="italic"
-        android:layout_below="@+id/searchView"
-        android:layout_centerHorizontal="true" />
-
+        android:id="@+id/listView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

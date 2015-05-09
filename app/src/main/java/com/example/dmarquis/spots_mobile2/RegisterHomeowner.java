@@ -1,5 +1,6 @@
 package com.example.dmarquis.spots_mobile2;
 
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -42,6 +43,7 @@ public class RegisterHomeowner extends FragmentActivity implements View.OnClickL
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.bRegister2:
+                startActivity(new Intent(this, HomeScreen.class));
                 Toast.makeText(getApplicationContext(), "Success! You are Registered!", Toast.LENGTH_SHORT).show();
                 break;
         }

@@ -41,6 +41,12 @@
     <string name="spotsCost">How much per spot?</string>
     <string name="VehicleInfo">Vehicle Information</string>
     <string name="action_search">Search</string>
+    <string name="HomeTitle">Home</string>
+    <string name="Home">Home</string>
+    <string name="logout">Logout</string>
+    <string name="mySpots">My Spots</string>
+    <string name="splash_logout2">We will see you soon!</string>
+    <string name="splash_logout">Thanks for choosing Spots!</string>
     <string-array name="states">
         <item>AL</item>
         <item>AK</item>
@@ -94,4 +100,7 @@
         <item>WY</item>
         <item>DC</item>
     </string-array>
+    <string name="title_activity_logout">Logout</string>
+    <string name="title_activity_search">Search</string>
+    <string name="searchBar">Search city for spots...</string>
 </resources>
